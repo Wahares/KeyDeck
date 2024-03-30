@@ -9,6 +9,9 @@ keys can be sequence of keyboard keys separated with '+'
 mouse should be one from {Left,Right,Middle}
 wheel delta should be a number
 
+all data for different fields should be placed after field name and before next field's name
+for example: "...{KEYS}ctrl+z{MOUSE}Left{WHEELDELTA}"
+
 
 {BUTTON}Button1{MODE}Click{KEYS}{MOUSE}{WHEELDELTA}
 {BUTTON}Button2{MODE}Click{KEYS}{MOUSE}{WHEELDELTA}
